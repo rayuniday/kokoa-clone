@@ -2,30 +2,16 @@
 <html lang="kr">
   <head>
     <title>Home - My first website.</title>
-    <meta charset="utf-8" />
-    <meta name="description" content="This is my website" />
-    <link
-      rel="shortcut icon"
-      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
-    />
   </head>
   <body>
-    <p>lalalalalalalalalalalalalal</p>
-    <pre>hello!</pre>
-    <p>My name is <abbr title="Nicolas Serrano Arevelo">NSA</abbr></p>
-    <cite>Hello!</cite>
-    <code>Hello!</code>
-    <p>I like to live in <mark>South Korea</mark></p>
-    <p>I like to live in <strong>South Korea<strong></p>
-    <p>2<sup>5<sup></p>
-    <p>2<sub>5<sub></p>
-    <audio 
-      controls
-      autoplay
-      src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
-    ></audio>
-    <dialog open>
-      <p>Greetings, one and all!</p>
-    </dialog>
+    <form>
+      <!-- <input type="color" /> -->
+      <input type="file" accept="image/*, .pdf" />
+      <input required placeholder="Name" type="text" />
+      <input required placeholder="Last Name" disabled type="text" />
+      <input required placeholder="Username" type="text" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="submit" value="Create Account" />
+    </form>
   </body>
 </html>
