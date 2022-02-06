@@ -8,34 +8,49 @@
         margin: 50px;
       }
       span {
-        /* color: tomato; */
         background-color: yellowgreen;
         padding: 5px;
         border-radius: 10px;
-        /* text-decoration: underline; */
       }
       p span {
-        /* color: teal; */
         color: white;
         text-decoration: none;
       }
-      /* div > span {
+      p ~ span {
         text-decoration: underline;
+      }
+      input {
+        border: 1px solid wheat;
+      }
+      /* input:optional {
+        border: 1px solid wheat;
       } */
-      p + span {
-        text-decoration: underline;
+      input:required {
+        border-color: tomato;
+      }
+      input[placeholder="username"] {
+        background-color: thistle;
+      }
+      input[placeholder~="name"] {
+        background-color: pink;
       }
     </style>
   </head>
   <body>
     <div>
-      <p>
+      <!-- <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum repellat
         velit perspiciatis consectetur corporis, distinctio impedit atque at
         deserunt mollitia <span>iste.</span> Tempore voluptatum cum ea
         asperiores dolores libero, quisquam quasi?
       </p>
-      <span>hello</span>
+      <address>hi</address>
+      <span>hello</span> -->
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="password" required placeholder="password" />
+      </form>
     </div>
   </body>
 </html>
