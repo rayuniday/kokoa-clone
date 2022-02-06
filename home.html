@@ -7,39 +7,35 @@
         height: 1000vh;
         margin: 50px;
       }
-      /* div {
-        width: 150px;
-        height: 150px;
-        background-color: wheat;
-        position: relative;
-      } */
-      /* div:first-child {
-        background-color: tomato;
-      }
-      div:last-child {
-        background-color: teal;
-      } */
       span {
-        background-color: tomato;
+        /* color: tomato; */
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+        /* text-decoration: underline; */
       }
-      /* span:nth-child(2),
-      span:nth-child(4) {
-        background-color: teal;
+      p span {
+        /* color: teal; */
+        color: white;
+        text-decoration: none;
+      }
+      /* div > span {
+        text-decoration: underline;
       } */
-      /* even, odd, 2n, 2n+1 */
-      span:nth-child(3n + 2) {
-        background-color: teal;
+      p + span {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum repellat
+        velit perspiciatis consectetur corporis, distinctio impedit atque at
+        deserunt mollitia <span>iste.</span> Tempore voluptatum cum ea
+        asperiores dolores libero, quisquam quasi?
+      </p>
+      <span>hello</span>
+    </div>
   </body>
 </html>
