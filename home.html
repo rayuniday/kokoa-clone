@@ -5,30 +5,30 @@
     <style>
       body {
         height: 1000vh;
-        margin: 20px;
+        margin: 50px;
       }
       div {
-        /* position: fixed; */
         width: 300px;
         height: 300px;
-        color: white;
-        background-color: teal;
-      }
-      #green {
-        position: fixed;
-        opacity: 0.2;
-      }
-      #different {
-        /* top: 5px;
-        left: 200px;
-        position: fixed; */
         background-color: wheat;
-        width: 350px;
+        position: relative;
+      }
+      .green {
+        background-color: teal;
+        height: 100px;
+        width: 100px;
+        /* position: relative; */
+        position: absolute;
+        /* top: -10px; */
+        /* left: -10px; */
+        bottom: 0;
+        right: 0;
       }
     </style>
   </head>
   <body>
-    <div id="green"></div>
-    <div id="different"></div>
+    <div>
+      <div class="green"></div>
+    </div>
   </body>
 </html>
