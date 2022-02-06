@@ -7,50 +7,53 @@
         height: 1000vh;
         margin: 50px;
       }
-      span {
-        background-color: yellowgreen;
+      button {
         padding: 5px;
         border-radius: 10px;
       }
-      p span {
-        color: white;
-        text-decoration: none;
+      button:active {
+        background-color: tomato;
       }
-      p ~ span {
-        text-decoration: underline;
+      button:hover {
+        background-color: tomato;
       }
-      input {
-        border: 1px solid wheat;
+      input:focus {
+        background-color: tomato;
       }
-      /* input:optional {
-        border: 1px solid wheat;
-      } */
-      input:required {
-        border-color: tomato;
+      a:visited {
+        color: tomato;
       }
-      input[placeholder="username"] {
-        background-color: thistle;
+      a:hover {
+        color: teal;
       }
-      input[placeholder~="name"] {
-        background-color: pink;
+      a:focus {
+        color: turquoise;
+      }
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:focus-within {
+        border-color: seagreen;
+      }
+      form:hover input:focus {
+        background-color: sienna;
       }
     </style>
   </head>
   <body>
     <div>
-      <!-- <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum repellat
-        velit perspiciatis consectetur corporis, distinctio impedit atque at
-        deserunt mollitia <span>iste.</span> Tempore voluptatum cum ea
-        asperiores dolores libero, quisquam quasi?
-      </p>
-      <address>hi</address>
-      <span>hello</span> -->
-      <form>
-        <input type="text" placeholder="First name" />
-        <input type="text" placeholder="Last name" />
-        <input type="password" required placeholder="password" />
-      </form>
+      <!-- <button>Hello</button> -->
+      <!-- <input type="text" />
+      <input type="text" /> -->
     </div>
+    <!-- <a href="https://apple.com">Go to apple</a> -->
+    <form>
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+    </form>
   </body>
 </html>
