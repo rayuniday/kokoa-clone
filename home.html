@@ -3,37 +3,33 @@
   <head>
     <title>Home - My first website.</title>
     <style>
+      :root {
+        --main-color: #489ee3;
+        --default-border: 1px solid var(--main-color);
+      }
       body {
         height: 1000vh;
         margin: 50px;
       }
-      input::placeholder {
-        color: yellowgreen;
+      p {
+        /* color: #fcce00; */
+        /* color: rgb(252, 206, 0); */
+        background-color: var(--main-color);
       }
-      p::selection {
-        background-color: yellowgreen;
-        color: white;
-      }
-      p::first-letter {
-        color: white;
-        font-size: 20px;
-        background-color: yellowgreen;
-      }
-      p::first-line {
-        color: white;
-        font-size: 20px;
-        background-color: yellowgreen;
+      a {
+        color: var(--main-color);
+        border: var(--default-border);
       }
     </style>
   </head>
   <body>
-    <!-- <form>
-      <input type="text" placeholder="Name" />
-    </form> -->
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem non
       voluptatibus aperiam autem, vel sequi corporis unde cupiditate, soluta
       ipsa repellat labore odio libero sunt magnam eum repudiandae eius dolorum.
     </p>
+    <div>
+      <a href="#">website</a>
+    </div>
   </body>
 </html>
