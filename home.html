@@ -10,8 +10,10 @@
         padding: 3px 5px;
         border-radius: 5px;
         font-size: 55px;
-        /* transition: background-color 10s ease-in-out, color 5s ease-in-out; */
-        transition: all 1s ease-in-out;
+        /* transition: all 1s cubic-bezier(0.785, 0.135, 0.15, 0.86); */
+        /* linear, ease-in, ease-out, ease-in-out */
+        transition: color 1s cubic-bezier(0.6, 0, 0.735, 0.045),
+          border-radus 5s ease-in-out, background-color 10s ease-out;
       }
       a:hover {
         border-radius: 20px;
