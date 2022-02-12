@@ -261,16 +261,12 @@ CSS media query MDN
 
 ### #5.0 What is Git
 
-git: <https://git-scm.com>
+git: <https://git-scm.com>  
 github: <https://github.com>
 
-### #5.1 What is Github
-
-### #5.2 Creating a Github Repository
-
-### #5.3 Making Our First Commits
-
 ### #6.0 Introduction
+
+.gitignore
 
 ### #6.1 Sign Up Screen part One
 
