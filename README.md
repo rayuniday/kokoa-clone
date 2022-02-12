@@ -1,3 +1,7 @@
+# Kokoa Clone Update
+
+HTML and CSS are so much fun!
+
 ### #1.3 Software Requirements
 
 1. 구글 크롬 or 브레이브
@@ -221,7 +225,7 @@ img:hover {
 }
 ```
 
-animista: <https://animista.net/>
+animista: <https://animista.net>
 
 ### #4.5 Media Queries
 
@@ -254,3 +258,22 @@ CSS media query MDN
     }
 }
 ```
+
+### #5.0 What is Git
+
+git: <https://git-scm.com>
+github: <https://github.com>
+
+### #5.1 What is Github
+
+### #5.2 Creating a Github Repository
+
+### #5.3 Making Our First Commits
+
+### #6.0 Introduction
+
+### #6.1 Sign Up Screen part One
+
+### #6.2 BEM
+
+### #6.3 Font Awesome
