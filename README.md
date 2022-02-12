@@ -64,12 +64,12 @@ footer
 
 ### #3.0 How to Add CSS to HTML
 
-link : rel(stylesheet), href
+link : rel(stylesheet), href    
 style
 
 ### #3.1 Writing Our First CSS Lines
 
-tag {}
+tag {}    
 color, text-decoration, font-weight, font-style, font-size, text-align
 
 ### #3.3 Blocks and Inlines
@@ -86,12 +86,12 @@ padding
 
 ### #3.7 Border
 
-- {}, #id {}
-  border
+\* {}, #id {}    
+border
 
 ### #3.8 Classes
 
-.class{}
+.class{}    
 border-radius
 
 ### #3.9 Inline Block
@@ -100,7 +100,7 @@ display
 
 ### #3.10 Flexbox Part One
 
-display: flex;
+display: flex;    
 justify-content, align-items
 
 ### #3.11 Flexbox Part Two
@@ -109,41 +109,42 @@ flex-direction, flex-wrap
 
 ### #3.12 Fixed
 
-position: fixed;
-top, left, bottom, right
+position: fixed;    
+top, left, bottom, right    
 opacity
 
 ### #3.13 Relative Absolute
 
+```
 parent {
-position: relative;
+  position: relative;
 }
 child {
-position: absolute;
+  position: absolute;
 }
-
+```
 ### #3.14 Pseudo Selectors part One
 
 :first-child, :last-child, :nth-child(n, 2n, 2n+1, even, odd)
 
 ### #3.15 Combinators
 
-parent child {}
-parent > child {}
+parent child {}    
+parent > child {}    
 sibling + sibling {}
 
 ### #3.16 Pseudo Selectors part Two
 
-sibling ~ sibling {}
-tag:attribute {}
-tag[attrigute="value"] {}
+sibling ~ sibling {}    
+tag:attribute {}    
+tag[attrigute="value"] {}    
 tag[attribute-="word"] {}
 
 ### #3.17 States
 
-:active, :hover, :focus,
-a:visited {}
-form:focus-within {}
+:active, :hover, :focus    
+a:visited {}    
+form:focus-within {}    
 form:hover input:focus {}
 
 ### #3.18 Recap
@@ -151,13 +152,14 @@ form:hover input:focus {}
 ::selection, ::first-letter, ::first-line
 
 ### #3.19 Colors and Variables
-
+```
 :root {
---main-color: #489ee3;
---default-border: 1px solid var(--main-color);
+  --main-color: #489ee3;
+  --default-border: 1px solid var(--main-color);
 }
 
 a {
-color: var(--main-color);
-border: var(--default-border);
+  color: var(--main-color);
+  border: var(--default-border);
 }
+```
