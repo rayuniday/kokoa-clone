@@ -119,7 +119,7 @@ opacity
 
 ### #3.13 Relative Absolute
 
-```
+```CSS
 parent {
   position: relative;
 }
@@ -158,7 +158,7 @@ form:hover input:focus {}
 
 ### #3.19 Colors and Variables
 
-```
+```CSS
 :root {
   --main-color: #489ee3;
   --default-border: 1px solid var(--main-color);
@@ -184,7 +184,7 @@ cubic-bezier: <https://matthewlein.com/tools/ceaser>
 
 ### #4.3 Animations part One
 
-```
+```CSS
 @keyframes superSexyCoinFlip {
     form {
         transform: rotateY(0);
@@ -201,7 +201,7 @@ img:hover {
 
 ### #4.4 Animations part Two
 
-```
+```CSS
 @keyframes superSexyCoinFlip {
     0% {
         transform: rotateY(0);
@@ -229,7 +229,7 @@ animista: <https://animista.net>
 
 ### #4.5 Media Queries
 
-```
+```CSS
 @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: portrait) {
     div {
         background-color: wheat;
@@ -246,7 +246,7 @@ animista: <https://animista.net>
 
 CSS media query MDN
 
-```
+```CSS
 @media screen and (min-device-width: 601px) and (max-width: 1200px) and (orientation: portrait) {
     div {
         background-color: wheat;
@@ -268,8 +268,22 @@ github: <https://github.com>
 
 .gitignore
 
-### #6.1 Sign Up Screen part One
-
 ### #6.2 BEM
+
+BEM(Block Element Modifier)
+
+```CSS
+.btn {} //블록
+.btn__price {} //price라는 정보
+.btn--orange {} //modifier
+.btn--big {} //modifier
+```
+
+```HTML
+<a class="btn btn--big btn--orange" href="https://css-tricks.com">
+    <span class="btn__price">$9.99</span>
+    <span class="btn__text">Subscribe</span>
+</a>
+```
 
 ### #6.3 Font Awesome
