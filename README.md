@@ -287,3 +287,6 @@ BEM(Block Element Modifier)
 ```
 
 ### #6.3 Font Awesome
+
+Heroicons : <https://heroicons.dev>
+Fontawesome : <https://fontawesome.com>
