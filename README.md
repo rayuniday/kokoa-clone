@@ -329,3 +329,40 @@ reset CSS : <https://cssdeck.com/blog/scripts/eric-meyer-reset-css>
 @import "reset.css";
 @import "status-bar.css";
 ```
+
+### #6.7 Log In Form part One
+
+resetCSS
+
+```css
+input:focus {
+  outline: none;
+}
+```
+
+variables.css
+
+```css
+:root {
+  --yellow: #fae100;
+}
+```
+
+Login Form
+
+```css
+#login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+```
