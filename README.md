@@ -366,3 +366,31 @@ Login Form
   border-color: var(--yellow);
 }
 ```
+
+### #6.8 Log In Form part Two
+
+```css
+button {
+  cursor: pointer;
+  cursor: not-allowed;
+  cursor: progress;
+
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+```
+
+### #6.9 Recap and Forms
+
+### #6.10 Navigation Bar part One
+
+### #6.11 Navigation Bar part Two
+
+### #6.12 Border Box
+
+### #6.13 Navigation Bar part Three
