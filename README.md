@@ -407,9 +407,33 @@ method : POST or GET
 - POST : 백엔드 서버에 정보를 전송하는 방식
 - GET : 보안에 취약, URL에 포함되어도 상관없는 정보들을 보낼 때 사용
 
-### #6.10 Navigation Bar part One
-
 ### #6.11 Navigation Bar part Two
+
+Font Awesome - size : <https://fontawesome.com/docs/web/style/size>
+
+resetCSS
+
+```css
+a {
+  color: inherit;
+  text-decoration: none;
+}
+```
+
+fixed
+
+```css
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.status-bar {
+  position: fixed;
+  width: 100%;
+}
+```
 
 ### #6.12 Border Box
 
