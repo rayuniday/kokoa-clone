@@ -290,3 +290,35 @@ BEM(Block Element Modifier)
 
 Heroicons : <https://heroicons.dev>
 Fontawesome : <https://fontawesome.com>
+
+### #6.5 Status Bar CSS
+
+Google Fonts : <https://fonts.google.com>
+
+```css
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+```
+
+```css
+.status-bar {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+```
+
+### #6.6 Sign Up Screen part Three
