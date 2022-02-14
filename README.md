@@ -322,3 +322,10 @@ body {
 ```
 
 ### #6.6 Sign Up Screen part Three
+
+reset CSS : <https://cssdeck.com/blog/scripts/eric-meyer-reset-css>
+
+```css
+@import "reset.css";
+@import "status-bar.css";
+```
