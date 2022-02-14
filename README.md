@@ -293,6 +293,13 @@ Fontawesome : <https://fontawesome.com>
 
 ### #6.5 Status Bar CSS
 
+```css
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+```
+
 Google Fonts : <https://fonts.google.com>
 
 ```css
@@ -386,6 +393,19 @@ a {
 ```
 
 ### #6.9 Recap and Forms
+
+```html
+<form id="login-form" action="friends.html" method="get">
+  <input name="username" type="text" placeholder="Email or phone number" />
+  <input name="password" type="password" placeholder="Password" />
+</form>
+```
+
+action : 어떤 페이지로 data를 보낼건지 지정할 수 있음
+method : POST or GET
+
+- POST : 백엔드 서버에 정보를 전송하는 방식
+- GET : 보안에 취약, URL에 포함되어도 상관없는 정보들을 보낼 때 사용
 
 ### #6.10 Navigation Bar part One
 
