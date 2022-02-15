@@ -437,4 +437,4 @@ fixed
 
 ### #6.12 Border Box
 
-### #6.13 Navigation Bar part Three
+box-sizing: border-box;
