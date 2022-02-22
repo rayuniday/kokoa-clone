@@ -14,3 +14,13 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__icons-gear {
+  position: relative;
+}
+.header_small {
+  width: 5px !important;
+  height: 5px !important;
+  left: 0px;
+  bottom: 25px;
+}
